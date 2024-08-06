@@ -1,0 +1,72 @@
+I am Neeraj
+
+
+
+
+<!DOCTYPE HTML>
+<HTML>
+ <HEAD>
+ <TITLE>Registraion</TITLE>
+ 
+ 
+ <STYLE>
+     .apply{
+            background-color:orange;
+            color:white;
+            font-family:Wordwalker
+            font-size:28;
+      }
+  </STYLE>
+  <STYLE>
+       .FRTABLE{
+            border:50%;
+            text-align:'center';
+            
+            }
+  </STYLE>
+  
+ </HEAD>
+ <BODY align='center' style='background-color:powderblue; '>
+ <H1 class='apply'>Register with your details</H1>
+
+ <TABLE class='frtable'>
+  <TR>
+   <TD>NAME:</TD>
+   <TD><INPUT type='text' name='name' id='name'.><br></TD>
+  </TR>
+  <br>
+  <br>
+  <br>
+  <TR>
+   <TD>EMAIL ID:</TD>
+   <TD><INPUT type='text' name='mailid' id='mailid'><br></TD>
+  </TR>
+  <TR>
+   <TD>PHN NO:</TD>
+   <TD><INPUT type='tel' name='number' id='nmbr'><br></TD>
+  </TR>
+  <TR>
+   <td colspan='2' align='center'>
+  <INPUT type='button' name='submit' value='SUBMIT' onclick='react();'></TD>
+  </TR>
+  <SCRIPT language='javascript'> 
+    function react(){
+       name=document.getElementById('name').value;
+       mailid=document.getElementById('mailid').value;
+       number=document.getElementById('nmbr').value;
+       if (name=='') {
+           alert('fill name')
+       }
+       if else(mailid=='') {
+           alert('fill mailid')   
+       }
+       else:{
+           alert('fill mobile number')
+       }
+     }
+  
+
+  </SCRIPT>
+ </TABLE>
+ </BODY>
+</HTML>
